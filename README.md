@@ -8,11 +8,11 @@ mr ALL=(ALL:ALL) ALL
 ## Add Repo
 - sudo nano /etc/apt/sources.list
 
-deb https://deb.debian.org/debian/ trixie contrib main non-free non-free-firmware
-deb https://deb.debian.org/debian/ trixie-updates contrib main non-free non-free-firmware
-deb https://deb.debian.org/debian/ trixie-proposed-updates contrib main non-free non-free-firmware
-deb https://deb.debian.org/debian/ trixie-backports contrib main non-free non-free-firmware
-deb https://security.debian.org/debian-security/ trixie-security contrib main non-free non-free-firmware
+- deb https://deb.debian.org/debian/ trixie contrib main non-free non-free-firmware
+- deb https://deb.debian.org/debian/ trixie-updates contrib main non-free non-free-firmware
+- deb https://deb.debian.org/debian/ trixie-proposed-updates contrib main non-free non-free-firmware
+- deb https://deb.debian.org/debian/ trixie-backports contrib main non-free non-free-firmware
+- deb https://security.debian.org/debian-security/ trixie-security contrib main non-free non-free-firmware
 
 ## Update & upgrade
 
